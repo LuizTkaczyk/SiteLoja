@@ -1,11 +1,10 @@
 body {
-  background-color: cornflowerblue;
+  background-color: #f7f7f7;
 }
 
 .container {
   margin: auto;
   width: 50%;
-  border: 1px solid black;
 }
 
 .container #logo {
@@ -84,7 +83,6 @@ body {
   .container {
     margin: auto;
     width: 70%;
-    border: 1px solid black;
   }
   .sociais {
     width: 5%;
@@ -146,7 +144,6 @@ body {
   .container {
     margin: auto;
     width: 70%;
-    border: 1px solid black;
   }
   .sociais {
     width: 5%;
@@ -206,7 +203,6 @@ body {
   .container {
     margin: auto;
     width: 95%;
-    border: 1px solid black;
   }
   .sociais {
     width: 5%;
@@ -266,7 +262,6 @@ body {
   .container {
     margin: auto;
     width: 95%;
-    border: 1px solid black;
   }
   .sociais {
     width: 5%;
