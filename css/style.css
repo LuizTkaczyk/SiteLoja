@@ -1,0 +1,324 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.container #logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding: 1% 0% 0% 0%;
+}
+
+.sociais {
+  width: 5%;
+  display: inline-block;
+}
+
+.social {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.social .logos {
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social .logos .logotipos {
+  width: 13%;
+  padding: 5px 29px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.social .logos .logotipos:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 4vh;
+  text-shadow: white 0em 0em 0.2em;
+}
+
+.ender {
+  padding: 10px;
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bolder;
+  text-shadow: white 0em 0em 0.2em;
+}
+
+.ender p {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.ender #maps {
+  padding: 20px 0px;
+  width: 13%;
+  display: inline-block;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.ender #maps:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media screen and (max-width: 1089px) {
+  .container {
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+  }
+  .sociais {
+    width: 5%;
+    display: inline-block;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .social .logos {
+    padding: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .social .logos .logotipos {
+    width: 13%;
+    padding: 5px 30px;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  .social .logos .logotipos:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .social h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender {
+    padding: 10px;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bolder;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender p {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  }
+  .ender #maps {
+    padding: 20px 0px;
+    width: 20%;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  .ender #maps:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 811px) {
+  .container {
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+  }
+  .sociais {
+    width: 5%;
+    display: inline-block;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .social .logos {
+    padding: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .social .logos .logotipos {
+    width: 13%;
+    padding: 5px 15px;
+  }
+  .social .logos .logotipos:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .social h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender {
+    padding: 10px;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bolder;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender p {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  }
+  .ender #maps {
+    padding: 20px 0px;
+    width: 20%;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  .ender #maps:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .container {
+    margin: auto;
+    width: 95%;
+    border: 1px solid black;
+  }
+  .sociais {
+    width: 5%;
+    display: inline-block;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .social .logos {
+    padding: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .social .logos .logotipos {
+    width: 13%;
+    padding: 5px 15px;
+  }
+  .social .logos .logotipos:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .social h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender {
+    padding: 10px;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bolder;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender p {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  }
+  .ender #maps {
+    padding: 20px 0px;
+    width: 20%;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  .ender #maps:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    margin: auto;
+    width: 95%;
+    border: 1px solid black;
+  }
+  .sociais {
+    width: 5%;
+    display: inline-block;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .social .logos {
+    padding: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .social .logos .logotipos {
+    width: 13%;
+    padding: 5px 10px;
+  }
+  .social .logos .logotipos:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .social h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 3vh;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender {
+    padding: 10px;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bolder;
+    text-shadow: white 0em 0em 0.2em;
+  }
+  .ender p {
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+  }
+  .ender #maps {
+    padding: 20px 0px;
+    width: 20%;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  .ender #maps:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
