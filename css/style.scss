@@ -2,7 +2,7 @@ body {
   background-color: rgb(247, 247, 247);
 }
 
-.container {
+body {
   margin: auto;
   width: 50%;
   //border: 1px solid black;
@@ -21,7 +21,7 @@ body {
   display: inline-block;
 }
 
-.social {
+main {
   text-align: center;
   width: 100%;
   margin: auto;
@@ -49,7 +49,7 @@ body {
   }
 }
 
-.ender {
+footer {
   //border: 1px solid black;
   padding: 10px;
   text-align: center;
@@ -76,7 +76,7 @@ body {
 }
 
 @media screen and (max-width: 1089px) {
-  .container {
+  body {
     margin: auto;
     width: 70%;
     //border: 1px solid black;
@@ -87,7 +87,7 @@ body {
     display: inline-block;
   }
 
-  .social {
+  main {
     text-align: center;
     width: 100%;
     margin: auto;
@@ -115,7 +115,7 @@ body {
     }
   }
 
-  .ender {
+ footer {
     //border: 1px solid black;
     padding: 10px;
     text-align: center;
@@ -143,7 +143,7 @@ body {
 }
 
 @media screen and (max-width: 811px) {
-  .container {
+  body {
     margin: auto;
     width: 70%;
     //border: 1px solid black;
@@ -154,7 +154,7 @@ body {
     display: inline-block;
   }
 
-  .social {
+  main {
     text-align: center;
     width: 100%;
     margin: auto;
@@ -181,7 +181,7 @@ body {
     }
   }
 
-  .ender {
+  footer {
     //border: 1px solid black;
     padding: 10px;
     text-align: center;
@@ -209,8 +209,8 @@ body {
 }
 
 @media screen and (max-width: 735px) {
-  .container {
-    margin: auto;
+  body {
+    margin:20px auto;
     width: 95%;
     //border: 1px solid black;
   }
@@ -220,7 +220,7 @@ body {
     display: inline-block;
   }
 
-  .social {
+  main {
     text-align: center;
     width: 100%;
     margin: auto;
@@ -248,7 +248,7 @@ body {
     }
   }
 
-  .ender {
+  footer {
     //border: 1px solid black;
     padding: 10px;
     text-align: center;
